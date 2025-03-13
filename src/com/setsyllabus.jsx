@@ -51,7 +51,7 @@ const SyllabusPage = () => {
     // Show loading message
     setMessage({ text: 'Processing your syllabus...', type: 'info' });
 
-    axios.post('http://localhost:8000/dynamic_question', data, {
+    axios.post('https://backend-samvaad.onrender.com/dynamic_question', data, {
       headers: { 'Content-Type': 'application/json' }
     })
     .then((response) => {
