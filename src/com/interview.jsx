@@ -368,7 +368,7 @@ const InteractiveInterviewApp = () => {
   };
 
   const goToSecondRound = () => {
-    navigate('/code');
+    // navigate('/code');
   };
 
   const handleButtonClick = () => {
